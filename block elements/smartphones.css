@@ -1,0 +1,29 @@
+.iphonexr{
+    width: 90%;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+}
+.iphone11{
+    background-color: lightblue;
+    width: 80%;
+}
+.Galaxya10{
+    background-color: bisque;
+    width: 70%;
+
+}
+.a50{
+    background-color: cyan;
+    width: 60%;
+}
+.a20{
+    background-color: black;
+    width: 50%;
+    color: white;
+}
+p{
+    height: 80px;
+    margin: 10px 20px;
+    padding: 40px 20px;
+}

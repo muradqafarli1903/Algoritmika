@@ -1,0 +1,38 @@
+#first{
+    color: red;
+    font-size: 50px;
+
+}
+#first :hover{
+    color: yellow;
+}
+#second{
+    color: blueviolet;
+    font-size: 50px;
+
+}
+.first{
+    background-color:#4ccbb1 ;
+    width: 570px;
+    font-size: 30px;
+    border: 2px solid green;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+.first :hover{
+    background-color: yellowgreen;
+    color: pink;
+}
+
+
+
+.second{
+    background-color: rgb(23, 74, 83);
+    color: aliceblue;
+
+}

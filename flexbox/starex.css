@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.contact{
+    background-color: #005AFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-family: RR;
+    font-size: 18px;
+    
+    color: white;
+
+}
+.nomre{
+    margin-left: 40px;
+    color: white;
+    
+    padding-left: 10px;
+}
+.nomre a{
+    margin-left: 5px;
+}
+.register{
+    margin-right: 90px;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+.register a,i{
+    margin-left: 15px;
+    color: white;
+}
+.contact a{
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.links{
+    width: 600px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+  
+}
+
+
+.sifaris{
+    width: 120px;
+    color: white;
+    background-color: #005AFF;
+    
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #005AFF ;
+    
+
+}
+.beyan{
+    background-color: #FFAB03;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #FFAB03;
+    margin-left: 15px;
+}
+.adlogo{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 4%;
+    
+
+}
+li a{
+    color: black;
+    
+
+}
+.buttons{
+    margin: 0px 60px 0px 0px;
+}
+.links a:hover{
+    color: #FFAB03;
+}
+.links li{
+    margin-right: 50px;
+}

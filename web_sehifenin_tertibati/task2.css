@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 320px;
+
+    
+
+}
+.navbar-left{
+    display: flex;
+    justify-content: space-between;
+}
+.left img{
+    width: 50px;
+    height: 50px;
+}
+.mid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right{
+    width: 40px;
+    height: 40px;
+    background-color: #833ae0;
+    border-radius: 50%;
+    color: white;
+}
+.right p{
+    position: absolute;
+    right: 336px;
+    top: 4px;
+}
+.mid p{
+    padding: 0px 15px;
+}
+.articles{
+    display: flex;
+    justify-content: space-between;
+
+}
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+.second{
+    background-color: lavender;
+    width: 20%;
+    padding: 20px;
+}
+.second p{
+    margin: 0px;
+}
+.second ul{
+    padding: 0px;
+}
+.name{
+    background-color: lavender;
+    padding: 5px;
+    font-weight: 400;
+    width: 200px;
+    font-size: 12px;
+    margin: 0px;
+}
+.yazilar{
+    margin: 16px 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.articles{
+    margin: 0px 320px;
+}

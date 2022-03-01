@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    list-style-type: none;
+
+}
+.container{
+    display: flex;
+
+}
+body{
+    font-family: 'Roboto', monospace;
+}
+.metnler{
+    width: 60%;
+    padding: 20px;
+}
+.date{
+    margin-top: 2px;
+    font-size: 10px;
+}
+.metnler h1{
+    font-size: 36px;
+    margin-top: 5px;
+}
+.name{
+    font-size: 12px;
+    font-weight: 400;
+    background-color: azure;
+}
+.first,.second,.third,.fourth,.fifth,.six,.seven{
+    margin: 16px 0px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.rgb,.hex{
+    margin: 18.720px 0px;
+    font-weight: bold;
+    font-size: 18.720;
+}
+.references, .keywords{
+    background-color: #EEE;
+    padding: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    width: 336px;
+
+}
+.tables h4{
+    margin-bottom: 10px;
+}
+.tables hr{
+    margin: 6px 0px;  
+
+}
+a{
+    margin-top: 10px;
+    color: #833ae0;
+    font-weight: 600;
+}
+table th,td{
+    padding: 1px;
+    
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}

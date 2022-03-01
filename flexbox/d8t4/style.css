@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+    margin: 0px 10px;
+    border-bottom: 1px solid black;
+
+    
+}
+.left{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li a{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.bg-blue{
+    background-color: blue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.bg-blue h1{
+    font-size: 65px;
+    margin: 43.550px 0px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg-blue p{
+    font-size: 33px;
+    margin: 33px 0px;
+    width: 500px;
+    height: 78.4px;
+}
+.articles p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 0px;
+}
+.articles h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin: 33.2px 0px;
+
+}
+.last{
+    margin: 14px 0px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}

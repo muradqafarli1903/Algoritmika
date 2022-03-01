@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.number{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.name{
+    font-size: 20px;
+    
+    font-family: monospace;
+    font-weight: 600;
+
+}
+.valid{
+    font-size: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.date{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.cip{
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+}
+.up .logo{
+    width: 70px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.mid{
+    margin: 10px 10px 0px 10px;
+    padding: 5px;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin: 0px 10px;
+}
+.left{
+    padding: 10px;
+}
+.right img{
+    width: 70px;
+    height: 50px;
+    margin-right: 15px;
+}
+.bg-blue{
+    background-color: blue;
+    margin: 50px;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+}
+.bg-prpl{
+    background-color: blueviolet;
+    margin: 50px;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+}
+.bg-black{
+    background-color: black;
+    margin: 50px;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+
+}
+.bg-green{
+    background-color: rgb(16, 175, 16);
+    margin: 50px;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+}
+.bg-black .logo{
+    width: 80px;
+}
+.bg-prpl .right img,.bg-black .right img{
+    width: 60px;
+    height: 40px;
+}
+.bg-green .logo{
+    padding-top: 5px;
+    padding-right: 5px;
+}
