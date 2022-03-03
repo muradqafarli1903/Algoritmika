@@ -1,0 +1,30 @@
+.container{
+    background-color: red;
+    display: flex;
+    width: 700px;
+    height: 500px;
+    
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+
+}
+.container div{
+    background-color: blue;
+    width: 100px;
+    margin: 20px;
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 20px 20px 20px 25px;
+    box-sizing: border-box;
+
+}
+
+.myclasses1{
+    justify-self: flex-end;
+
+}

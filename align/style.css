@@ -1,0 +1,12 @@
+.myclass{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

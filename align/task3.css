@@ -1,0 +1,42 @@
+.diaqram{
+    width: 300px;
+    height: 500px;
+    border: 2px solid gray;
+    padding: 10px;
+    display: flex;
+    background-color: bisque;
+    transform: rotate(-90deg);
+    
+    
+    align-items: flex-end;
+
+}
+.one{
+    height: 250px;
+    width: 50px;
+
+}
+.two{
+    height: 174px;
+}
+.three{
+    height: 92px;
+}
+.four{
+    height: 221px;
+}
+.diaqram div{
+    width: 50px;
+    background-color: lightblue;
+    margin-left: 15px;
+    border: 1px solid greenyellow;
+    
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
