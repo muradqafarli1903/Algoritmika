@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800;900&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.first-container{
+    width: 375px;
+    margin-left: 35px;
+    
+
+}
+
+.first-logo img{
+    width: 53px;
+    height: 31px;
+    margin-top: 38px;
+
+
+
+}
+.first-icons{
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 10px;
+    margin-top: 35px;
+    
+
+
+}
+.online-course,.date,.hours{
+    display: flex;
+    
+}
+.first-icons .image{
+    margin-right: 5px;
+}
+.first-h1{
+    width: 295px;
+    font-size: 37px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.first-info{
+    width: 213px;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 17px;
+    
+}
+.produser{
+    position: relative;
+    left: 200px;
+
+}
+.background-blue{
+    background-color: #1E4681;
+    width: 225px    ;
+    color: white;
+    margin-left: 3px;
+    margin-top: 38px;
+    padding:  10px 13px 25px 13px;
+
+}
+.andrei{
+    margin-left: 91px;
+    width: 96px;
+    margin-top: 15px;
+    font-size: 10px;
+    font-family: Roboto;
+
+
+}
+.quote{
+    
+    font-size: 11px;
+    font-family: Roboto Slab;
+}
