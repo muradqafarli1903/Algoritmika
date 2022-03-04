@@ -1,0 +1,21 @@
+.wrapper{
+    display: flex;
+    width: 80%;
+    padding-left: 30px;
+    justify-content: space-between;
+
+}
+.left{
+    width: 22%;
+    height: 40vh;
+    background-color: coral;
+    border: 1px solid black;
+
+
+}
+.right{
+    width: 75%;
+    height: calc(100vh-300px);
+    background-color: coral;
+    border: 1px solid black;
+}

@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+}.wrapper div{
+    width: 33%;
+
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+@media (max-width:960px){
+    .wrapper{
+        flex-direction: column;
+        
+        
+    }
+    .wrapper div{
+        width: 90%;
+        margin-top: 20px;
+        transition: 2s ease;
+    }
+}
